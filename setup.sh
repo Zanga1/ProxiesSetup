@@ -4,7 +4,7 @@
 username=""
 while [[ $username = "" ]]; do
     echo "Enter the proxy username"
-    read -p "username: " username
+    username = "diajsdoiasdajsd"
     if [ -z "$username" ]; then
       echo "The username cannot be empty"
     else
@@ -22,7 +22,7 @@ done
 password=""
 while [[ $password = "" ]]; do
     echo "Enter the proxy password"
-    read -p "password: " password
+    password = "diajsdoiasdajsd"
     if [ -z "$password" ]; then
         echo "Password cannot be empty"
     fi
