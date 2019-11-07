@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Enter the username
-username="diajsdoiasdajsd"
+username=""
 while [[ $username = "" ]]; do
     echo "Enter the proxy username"
     username="diajsdoiasdajsd"
@@ -19,7 +19,7 @@ while [[ $username = "" ]]; do
 done
 
 # Enter the proxy user password
-password="diajsdoiasdajsd"
+password=""
 while [[ $password = "" ]]; do
     echo "Enter the proxy password"
     password="diajsdoiasdajsd"
